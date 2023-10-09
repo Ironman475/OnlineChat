@@ -55,7 +55,6 @@ public class GetThreadPrv implements Runnable {
             ex.printStackTrace();
         }
     }
-
     private byte[] responseBodyToArray(InputStream is) throws IOException {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] buf = new byte[10240];
