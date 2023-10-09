@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-
 public class PrivateListMap {
     private final Gson gson;
     private static final Map<String, List<Message>> privateMap = new HashMap<>();
